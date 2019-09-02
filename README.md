@@ -1,3 +1,6 @@
+# Dummy App for Styled Componments
+This is siomply a dummy React app created to familiarize myself with styled components.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
