@@ -1,12 +1,25 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import styled from 'styled-components'
+
+const NavStyle = styled.h2`
+  font-size: 2rem;
+  background: #eaeaea;
+  color: blue;
+`
+
+const NavButton = styled.button`
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 10px;
+`
 
 const Navbar = () => {
   return (
-    <Fragment>
+    <NavStyle>
       <h2>This is the Nav Bar...</h2>
-      <button>This is a Nav Bar button</button>
-      <button>This is another Nav Bar button</button>
-    </Fragment>
+      <NavButton>This is a Nav Bar button</NavButton>
+      <NavButton>This is another Nav Bar button</NavButton>
+    </NavStyle>
   )
 }
 
